@@ -17,6 +17,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
+        $this->call(RoleSeeder::class);
         Category::factory(20)->create();
         User::factory(50)->create();
         $tags = Tag::factory(20)->create();

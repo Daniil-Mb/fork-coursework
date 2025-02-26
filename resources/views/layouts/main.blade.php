@@ -38,7 +38,7 @@
                 <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                     <ul class="nav navbar-nav menu_nav justify-content-center">
                         <li class="nav-item active"><a class="nav-link" href=" {{ route('home.index') }} ">Домашняя</a></li>
-                        <li class="nav-item"><a class="nav-link" href=" {{ route('posts.index') }} ">Посты</a>
+                        <li class="nav-item"><a class="nav-link" href=" {{ route('posts.index') }} ">Фильмы</a>
                         <li class="nav-item"><a class="nav-link" href=" {{ route('contact.index') }} ">Контакты</a></li>
                         <li class="nav-item"><a class="nav-link" href=" {{ route('about.index') }} ">О нас</a></li>
                         @can('view', auth()->user())

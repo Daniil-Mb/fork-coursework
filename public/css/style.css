@@ -747,6 +747,14 @@ a {
     z-index: 1
 }
 
+.about-page {
+    position: relative;
+    background: url(../img/background/background.jpg) left center no-repeat;
+    background-size: cover;
+    height: 400px;
+    z-index: 1
+}
+
 @media (min-width: 1000px) {
     .hero-banner {
         height: 550px

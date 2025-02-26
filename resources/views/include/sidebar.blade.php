@@ -1,7 +1,7 @@
 <div class="col-lg-4 sidebar-widgets">
     <div class="widget-wrap">
         <div class="single-sidebar-widget popular-post-widget">
-            <h4 class="single-sidebar-widget__title">Популярные посты</h4>
+            <h4 class="single-sidebar-widget__title">Популярные фильмы</h4>
             <div class="popular-post-list">
                 @foreach($popularPosts as $popularPost)
                 <div class="single-post-list">
